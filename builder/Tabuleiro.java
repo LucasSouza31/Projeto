@@ -1,5 +1,7 @@
 package builder;
 
+import factoryMethod.Unidade;
+
 public class Tabuleiro implements BuilderTabuleiro {
 
     private String nomeJogo;
@@ -39,6 +41,11 @@ public class Tabuleiro implements BuilderTabuleiro {
     @Override
     public ProdutoTabuleiro getTabuleiro() {
         return produto;
+    }
+
+    @Override
+    public void addUnidade(Unidade unidade) {
+        // adicionar as peças ao tabuleiro
     }
 
     

@@ -10,6 +10,7 @@ public class Diretor {
         builder.addAltura();
         builder.addLargura();
         builder.getTabuleiro();
+        builder.addUnidade(null);
     }
 
 
