@@ -1,6 +1,6 @@
 package factoryMethod;
 
-public class FactoryUnidadeTabuleiro implements Unidade {
+public class UnidadeTabuleiro implements Unidade {
 
     @Override
     public void movimento() {

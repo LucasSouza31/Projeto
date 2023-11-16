@@ -7,7 +7,6 @@ public class Tabuleiro implements BuilderTabuleiro {
     private String nomeJogo;
     private ProdutoTabuleiro produto;
    
-
     public Tabuleiro(String nomeJogo) {
         this.nomeJogo = nomeJogo;
         produto= new ProdutoTabuleiro();
@@ -47,6 +46,5 @@ public class Tabuleiro implements BuilderTabuleiro {
     public void addUnidade(Unidade unidade) {
         // adicionar as peças ao tabuleiro
     }
-
     
 }
